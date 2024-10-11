@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de navegação</title>
+    <style>
+        * {
+    margin: 0;
+    /*Removendo as margens padrão*/
+    padding: 0;
+    /*Remevendo o preechimento padrão*/
+    box-sizing: border-box;
+    /*ajusta o padding e o margin do elemento para que todos os elementos internos sejam considerados como se estivessem dentro do elemento*/
+}
+
+/*Estilizar o cabeçalho*/
+header {
+    background-color: #333;
+    /*define a cor de fundo do cabeçalho*/
+    padding: 20px 0px;
+    /*Adciona espaçamento na parte superior e inferior do cabeçalho*/
+}
+
+nav ul {
+   
+    display: flex;
+    /*define a exibição dos itens da lista para linha*/
+    list-style: none;
+    /*Remove os marcadores*/
+    justify-content: center;
+    /*Centralizar os itens do menu ao centro*/
+    margin: 15px;
+    /*define espaçamento entre linhas*/
+}
+
+nav ul li a {
+    color: white;
+    /*cor da letra branca*/
+    text-decoration: none;
+    /*removendo o sublinhado*/
+    font-weight: bold;
+    /*define os textos do link em negrito*/
+    padding: 5px 10px;
+    transition: color 0.10s;
+}
+
+nav ul li a:hover {
+    color: bisque;
+    /*Efeito ao passar o mouse*/
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+   
+}
+#inicio{
+    background-color: beige;
+    
+}
+#institucional{
+    background-color: lightblue;
+   
+}
+
+#areadeatuação{
+    background-color: lavender;
+}
+
+#contato{
+    background-color: lavender;
+}
+
+#trabalheconosco{
+    background-color: lavender;
+}
+.BMW img{
+    width: 300px;
+    padding: 10px;
+   
+}
+ .Jaguarcar img{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+.Porsche img{
+    width: 300px;
+    padding: 10px;
+}
+.Mercedes img{
+    width: 300px;
+    padding: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="Menu-Navegacao">
+        <header><!--cabeçalho do menu de navegação -->
+            <nav><!--Indica que tudo que esta dentro dela faz parte da nevegação da pagina-->
+                <ul><!--Lista não ordenada-->
+                    <li><a href="#inicio">Início</a></li><!--link para secão home-->
+                    <li><a href="#institucional">instucional</a></li><!--link para secão sobre-->
+                    <li><a href="#areadeatuação">Área de Atuação</a></li> <!--link para secão contato-->
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#trabalheconosco">Trabalhe Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section id="inicio">
+        <h1>Bem-Vindo</h1>
+        <p>LocaCar</p>
+        <p>A LocaCar é a sua melhor opção para aluguel de carros, oferecendo uma experiência prática e confiável. Com uma frota variada, desde compactos econômicos até SUVs espaçosos, atendemos a todas as suas necessidades de mobilidade. Nosso compromisso é garantir veículos em perfeito estado, prontos para rodar e proporcionar segurança e conforto em cada viagem. Na LocaCar, você encontra atendimento personalizado, com profissionais sempre prontos para ajudar. Além disso, temos condições especiais e preços competitivos, garantindo que você encontre a melhor opção para seu orçamento. Seja para uma viagem de negócios ou lazer, estamos aqui para tornar sua locação simples e eficiente. Venha nos visitar e descubra a liberdade que só a LocaCar pode oferecer!</p>
+        <div class="BMW">
+            <img src="./img/Captura de tela 2024-10-11 153840.png">
+        </div>
+        <p>BMW. Valor de aluguel R$100,00 o dia</p>
+
+        <div class="Jaguarcar"> 
+            <img src="./img/Captura de tela 2024-10-11 163548.png" alt="">
+            <p>Jaguar Car. Valor de aluguel R$230,00 o dia</p>
+
+        </div>
+        <div class="Porsche">
+            <img src="./img/Captura de tela 2024-10-11 165534.png" alt="">
+            <p>Porsche. Valor de aluguel R$300,00 o dia</p>
+        </div>
+        <div class="Mercedes">
+            <img src="./img/Captura de tela 2024-10-11 170312.png" alt="">
+        <p>Mercedes. Valor de aluguel R$400,00 o dia</p>
+        </div>
+    </section>
+
+
+    <section id="institucional">
+        <h1>Institucional</h1>
+        <p> Institucional - LocaCar
+
+            Bem-vindo à LocaCar! Nossa missão é oferecer a melhor experiência em locação de veículos, com uma frota diversificada para atender todas as suas necessidades. Fundada para facilitar a mobilidade, somos referência no setor, priorizando a satisfação do cliente. 
+            
+            Valorizamos a qualidade, transparência e um atendimento personalizado, garantindo veículos em excelente estado e processos claros. Oferecemos preços competitivos e um processo de locação simples e rápido. 
+            
+            Na LocaCar, cada viagem é uma nova história. Junte-se a nós e descubra como podemos ajudar você a alcançar novos destinos!</p>
+
+            <img src="./img/Captura de tela 2024-10-11 172157.png" alt="">
+    </section>
+
+    <section id="areadeatuação">
+        <h1>Área de Atuação</h1>
+        <p>Detalhes  para entrar em contato</p>
+    </section>
+
+    
+    <section id="contato">
+        <h1>Contato</h1>
+        <p>Detalhes  para entrar em contato</p>
+    </section>
+
+    <section id="trabalheconosco">
+        <h1>Trabalhe Conosco</h1>
+        <p>Detalhes  para entrar em contato</p>
+    </section>
